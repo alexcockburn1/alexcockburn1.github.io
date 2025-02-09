@@ -1,7 +1,7 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: About
+permalink: /about/
 ---
 
 I'm currently a software engineer at Bosch working on autonomous vehicles.  Before Bosch I had a brief stint at the

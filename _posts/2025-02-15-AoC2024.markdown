@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Advent of Code 2024"
+date:   2025-02-15 16:19:23 +0100
+tags: [Software engineering]
+---
+
+[Advent of code](https://adventofcode.com/) is an advent calendar for coders, where instead of revealing a
+nice picture or piece of chocolate each day you get a coding puzzle.  There's a global leaderboard of
+fastest solve times, but unless you're seriously into competitive programming and feel like getting up at 5am
+there's not much point in trying to compete.  For most people it's more an opportunity to try a new language,
+engage with the community (the subreddit has excellent memes), and just have fun solving puzzles.
+
+I attempted AoC 2023, but gave up around day 17 (see
+[this blog post](https://alexcockburn1.github.io/posts/AoC-2023-Problem-5-with-Mojo/) for a deep dive
+on solving one of the problems with Mojo). In 2024 I set myself the challenge of completing the whole thing.
+I succeeded! [Here](https://github.com/alexcockburn1/AoC2024) are my solutions.  I briefly considered
+attempting it in Julia this year, but after a couple of hours of reading Julia tutorials my enthusiasm waned and I
+defaulted back to Python.
+
+It was a lot of fun!  It sounds silly, but one of the appealing things about AoC is that you get
+to write a lot of code.  As a programmer you actually spend a surprisingly small amount of your time
+writing code.  You spend so much time in meetings, reviewing other people's code, reading documentation,
+attending meetings, designing, writing docs etc that it's nice to get back to just coding.  Even
+when you do code at work, there's quite a lot of grind involved in getting code that solves a problem
+into a clean, production-ready state.
+
+While the experience was fun, I honestly found it a little gruelling by the end.  It takes effort to avoid
+falling behind in the later weeks, and despite what I just said about the joy of coding, sometimes
+you don't want to sit down and solve an AoC problem after a long day of software development.  I also have a
+bad habit when I'm tired of not being able to stop thinking about a problem even though I'm just
+going in circles.
+
+Now that I've completed my first AoC I think I can offer some tips on how to get the most out of it:
+
+1. AoC has a somewhat learnable style.  If you try a few previous year's problems and look at other people's solutions
+you'll do much better than coming in cold.
+2. There are certain kinds of problems which come up frequently.  I've noticed that the Dijkstra algorithm is often
+helpful, as well as recursion in combination with caching.
+3. AoC problems come in two parts, and it's tempting to over-optimize a solution to the first part in anticipation
+that it will help with the second part.  This is unhelpful in AoC because the second part usually can't be predicted
+from the first part.
+4. **Read the whole question, including the example data**.  It's so annoying when you waste time trying to solve the wrong
+question, and this is quite easy to do on AoC because the question is often given as a large wall of text with lots of
+irrelevant Christmas-themed details.
+5. AoC is about learning and having fun.  It's fine to ask for help, take a break, or just skip a day.
+
+Looking forward to AoC 2025!
